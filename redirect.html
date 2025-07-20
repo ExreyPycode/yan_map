@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+        const url = new URLSearchParams(window.location.search).get('url');
+        if (url) window.location.href = decodeURIComponent(url);
+    </script>
+</head>
+<body>
+    Перенаправление на Яндекс.Карты...
+</body>
+</html>
